@@ -5,8 +5,8 @@
 An unofficial English translation for *Reco Love: Gold Beach* on PS Vita, game
 version **1.07** and 4 story DLC. Please note that you need the updated
 version of the game. The script is MTL with Sugoi-14B-Ultra-HF with some editing
-and the same vocabluary which I didn't enforce yet on some of the DLC stuff.
-I think the result, despite the byte-lenght limit, is fine for what it is:
+and the same vocabulary which I didn't enforce yet on some of the DLC stuff.
+I think the result, despite the byte-length limit, is fine for what it is:
 70% of the script is ok with small stuff like messed up pronouns (it would
 take too much time to edit 80k lines of script for such details, however, the tools
 to pack your own translation are provided here, so feel free to do so), 15% of
@@ -14,12 +14,12 @@ a bit strange lines which meaning you kinda guess and 15% of harder to guess lin
 The text is easy enough though, it's not some chuunibyou writing, just everyday stuff. 
 
 I've played through the game once. Some of the signs look a bit messy, some of
-the names in headers are butchered because of the lenght and some of the lines
-are not alligned properly, but the game is fully beatable with the patch,
+the names in headers are butchered because of the length and some of the lines
+are not aligned properly, but the game is fully beatable with the patch,
 I've spent quite some time ironing out problems and mistakes. I plan on at least
 fixing the DLC scripts which I still saw some things to fix and adding the translation
 of the menu lines for the story DLCs. The end result at this point I think is worse
-than an offical Japanese game translation, but better than some of the indie game
+than an official Japanese game translation, but better than some of the indie game
 translations on Steam. 
 
 Vita3k does not show the character models in the VN segments, but runs the game
@@ -28,7 +28,8 @@ with the patch, on Vita you need the rePatch plugin to make it work.
 This is a fan translation patch, not a copy of the game. **This repository ships
 no game files at all** -- only translation text, xdelta patches (which only make
 sense applied to a copy you already have), and the tools to build or apply them
-against your own legally-owned copy. 
+on your own legally-owned copy.
+
 
 ## Status
 
