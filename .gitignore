@@ -1,0 +1,19 @@
+# build output / scratch
+work/
+patched/
+__pycache__/
+*.pyc
+
+# copyrighted game files -- never commit these, no matter where they land.
+# This repo ships translation text and tools only; every build/test step reads
+# game files from outside the repo tree (an install dir, a DLC dir passed on
+# the command line) -- if one of these patterns matches something tracked,
+# that's a mistake, not a deliberate asset.
+/eboot.bin
+/eboot.elf
+/Script.cpk
+/Table.cpk
+/UI.cpk
+/DLC/
+*.pkg
+*.rif

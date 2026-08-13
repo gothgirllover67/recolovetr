@@ -1,0 +1,646 @@
+source_name	gxt_index	english	box	max_width	mode	rotation	align
+90_common_menu01_01menu.tex	0	Menu		170
+90_common_menu01_02smartphone.tex	0	Smartphone		170
+90_common_menu01_04load.tex	0	Load		170
+90_common_menu01_05saveload.tex	0	Save/Load		170
+90_common_menu01_06next.tex	0	Next Period		170
+90_common_menu01_07hiroba.tex	0	Bath Hall		170
+90_common_menu01_08sleep.tex	0	Sleep		170
+90_common_menu01_09album.tex	0	Album		170
+90_common_menu01_10mission.tex	0	Club Missions		170
+90_common_menu01_11status.tex	0	Status		170
+90_common_menu01_12config.tex	0	Config		170
+90_common_menu01_13hint.tex	0	Hints		170
+90_common_menu01_13special.tex	0	Special		170
+90_common_menu01_14title.tex	0	To Title		170
+90_common_menu01_15back.tex	0	Back		170
+90_common_menu01_16hosyuu.tex	0	Remedial		170
+90_common_menu01_22kaeru.tex	0	Go Home		170
+90_common_menu01_22mitsumisai.tex	0	Mitsumi Fest		170
+90_common_menu01_23camera.tex	0	Camera		170
+90_common_menu01_24system.tex	0	System		170
+01_menu_main_02.lac	0	New Game		213
+01_menu_main_02.lac	1	Continue		213
+01_menu_main_02.lac	2	Free Reco Session		213
+01_menu_main_02.lac	3	Album		213
+01_menu_main_02.lac	4	Event Replay		213
+01_menu_main_02.lac	5	Config		213
+01_menu_main_02.lac	7	Play History		213
+01name_resource.lac	4	Serious		170
+01name_resource.lac	5	Nice Guy		170
+01name_resource.lac	6	Big Eater		170
+01name_resource.lac	7	Mischievous		170
+01name_resource.lac	8	Playful		170
+01name_resource.lac	9	Naughty		170
+01name_resource.lac	10	Honor Student		170
+01name_resource.lac	11	Tough Guy		170
+01name_resource.lac	12	Romantic		170
+01name_resource.lac	13	Gigolo		170
+01name_resource.lac	14	Eros		170
+01name_resource.lac	15	Talk Master		170
+01menu_top_resource.lac	3	Thin		97
+01menu_top_resource.lac	4	Thick		97
+01menu_top_resource.lac	5	On		97
+01menu_top_resource.lac	6	Off		97
+01menu_top_resource.lac	7	Normal		97
+01menu_top_resource.lac	8	Reverse		97
+01menu_top_resource.lac	9	Vertical		97
+01menu_top_resource.lac	10	Horizontal		97
+01menu_top_resource.lac	11	Gyro		97
+01menu_top_resource.lac	12	Finder		97
+01menu_top_resource.lac	1	Event Replay		213
+01menu_top_resource.lac	2	Gallery		213
+01menu_resource.lac	0	Main Menu	84,40,250,90	150
+90_common_status_resource.lac	19	Status		213
+01config_resource.lac	9	Camera Settings		400
+01config_resource.lac	10	System		400
+01config_select_resource.lac	1	Config		400
+01config_resource.lac	3	OK		100
+01config_resource.lac	8	Confirm		100
+01_menu_config_top_01.lac	0	System		190	overlay
+01_menu_config_top_01.lac	2	Camera		190	overlay
+01_menu_config_top_01.lac	3	Special		190	overlay
+01_menu_config_top_01.lac	4	Mission		190	overlay
+90_common_back_01.lac	0	Back	50,8,124,56	70
+01_menu_config02_01.lac	0	OK		100
+01_menu_config02_02.lac	0	OK		100
+90_common_lord02_03.lac	0	Saving movie data	172,6,345,58	170
+90_common_status_01.lac	0	Name		150
+90_common_status_01.lac	1	Personality		150
+90_common_status_01.lac	3	Bound Level		200
+90_common_status_01.lac	10	Remedial		120
+90_common_status_01.lac	11	Next test in		200
+90_common_status_01.lac	15	Test		150
+90_common_status_01.lac	18	Ducks Earned		200
+91_key_resource.lac	0	OK		44
+91_key_resource.lac	1	Back		42
+91_key_resource.lac	2	Back to Name		145
+91_key_resource.lac	3	Delete Char		105
+91_key_resource.lac	4	Set Name		85
+91_key_resource.lac	5	Change		44
+91_key_resource.lac	6	Change Page		105
+91_key_resource.lac	7	Screenshot		114
+91_key_resource.lac	8	Item/Photo		144
+91_key_resource.lac	9	Time		83
+91_key_resource.lac	10	Default Name		121
+91_key_resource.lac	11	Test		61
+91_key_resource.lac	12	Delete Data		103
+91_key_resource.lac	13	Outfit		84
+91_key_resource.lac	14	View Mode		102
+91_key_resource.lac	15	Options		102
+91_key_resource.lac	16	Reset		84
+91_key_resource.lac	17	Controls		84
+91_key_resource.lac	18	Accessory		98
+91_key_resource.lac	19	Stop		43
+91_key_resource.lac	20	Favorite		98
+91_key_resource.lac	21	Sort		64
+91_key_resource.lac	22	Show/Hide Help		168
+91_key_resource.lac	23	Switch Route		140
+91_key_resource.lac	24	Back to Menu		138
+91_key_resource.lac	25	Panel		103
+91_key_resource.lac	26	Play/Pause		181
+91_key_resource.lac	27	Select Action		141
+91_key_resource.lac	28	Square		82
+91_key_resource.lac	29	Reorder		81
+91_key_resource.lac	30	Find		62
+91_key_resource.lac	31	Export		82
+91_key_resource.lac	32	Apply		102
+91_key_resource.lac	33	History		44
+91_key_resource.lac	34	Details		43
+91_key_resource.lac	35	Rewards		82
+91_key_resource.lac	54	Hold		48
+90_common_window01_01.lac	0	Yes		110	overlay
+90_common_window01_01.lac	1	No		110	overlay
+03_brm_Matching.lac	57	Talk 1		86
+03_brm_Matching.lac	58	Talk 2		86
+03_brm_Matching.lac	59	Talk 3		86
+03_brm_Matching.lac	60	Talk 4		86
+03_brm_Matching.lac	61	Talk 5		86
+03_brm_Matching.lac	124	Topic Charge		170
+03_brm_Matching.lac	98	Drinks & Snacks		144		-13.0
+03_brm_Matching.lac	110	Gaze		131		-12.4
+03_brm_Matching.lac	111	Hold Hands		132		-12.3
+08_phone_01_01.lac	18	Mail		51
+08_phone_pretty01_02.lac	21	Bond		52
+08_phone_pretty01_02.lac	22	Zeal		50
+08_phone_pretty01_02.lac	23	Luck		52
+08_phone_mail_test02_01.lac	1	Score		110
+08_phone_mail_test02_02.lac	1	Score		110
+08phone_lovecheck_resource.lac	2	Sagara Miu		249
+08phone_lovecheck_resource.lac	3	Mariana Priscilla		249
+08phone_lovecheck_resource.lac	4	Sorimachi Riko		249
+08phone_lovecheck_resource.lac	5	Misaki Nagisa		249
+08phone_lovecheck_resource.lac	6	Naruse Mahiro		249
+08phone_lovecheck_resource.lac	7	Himeragi Rinze		249
+08phone_lovecheck_resource.lac	8	Aida Miyuri		249
+08phone_lovecheck_resource.lac	9	Uchima Yuko		249
+08phone_lovecheck_resource.lac	10	Mana		249
+08phone_lovecheck_resource.lac	11	Yuina		249
+08phone_lovecheck_resource.lac	12	Isuzu Kokomi		249
+08phone_lovecheck_resource.lac	13	Abumi Tama		249
+08phone_lovecheck_resource.lac	14	Sagara		110
+08phone_lovecheck_resource.lac	15	Mariana		110
+08phone_lovecheck_resource.lac	16	Sorimachi		110
+08phone_lovecheck_resource.lac	17	Misaki		110
+08phone_lovecheck_resource.lac	18	Naruse		110
+08phone_lovecheck_resource.lac	19	Himeragi		110
+08phone_lovecheck_resource.lac	20	Aida		110
+08phone_lovecheck_resource.lac	21	Uchima		110
+08phone_lovecheck_resource.lac	22	Mana		110
+08phone_lovecheck_resource.lac	23	Yuina		110
+08phone_lovecheck_resource.lac	24	Isuzu		110
+08phone_lovecheck_resource.lac	25	Tama		110
+08phone_lovecheck_resource.lac	26	Sagara Miu		210
+08phone_lovecheck_resource.lac	27	Mariana Priscilla		210
+08phone_lovecheck_resource.lac	28	Sorimachi Riko		210
+08phone_lovecheck_resource.lac	29	Misaki Nagisa		210
+08phone_lovecheck_resource.lac	30	Naruse Mahiro		210
+08phone_lovecheck_resource.lac	31	Himeragi Rinze		210
+08phone_lovecheck_resource.lac	32	Aida Miyuri		210
+08phone_lovecheck_resource.lac	33	Uchima Yuko		210
+08phone_lovecheck_resource.lac	34	Mana		210
+08phone_lovecheck_resource.lac	35	Yuina		210
+08phone_lovecheck_resource.lac	36	Isuzu Kokomi		210
+08phone_lovecheck_resource.lac	37	Abumi Tama		210
+08_phone_pretty_header_01.lac	0	Love Check		191
+08_phone_01_01.lac	16	Love Check		96
+08_phone_01_01.lac	17	Love Hack		80
+08_phone_01_01.lac	19	Club Missions		114
+08_phone_01_01.lac	22	Back	196,8,310,56	110	overlay
+08_phone_pretty01_02.lac	1	Sagara Miu		144
+08_phone_pretty_list_chara01.lac	6	Sagara Miu		150
+04rsm_system_resource.lac	7	Thick		28	plate
+04rsm_system_resource.lac	8	Thick		28	plate
+04rsm_system_resource.lac	9	Thin		28	plate
+04rsm_system_resource.lac	10	Thin		28	plate
+04rsm_system_resource.lac	11	On		28	plate
+04rsm_system_resource.lac	12	On		28	plate
+04rsm_system_resource.lac	13	Off		28	plate
+04rsm_system_resource.lac	14	Off		28	plate
+04rsm_system_resource.lac	15	Normal		59	plate
+04rsm_system_resource.lac	16	Normal		59	plate
+04rsm_system_resource.lac	17	Reverse		59	plate
+04rsm_system_resource.lac	18	Reverse		59	plate
+04rsm_system_resource.lac	20	OK		74	plate
+04rsm_system_resource.lac	21	OK		74	plate
+04rsm_cameramenu_resource.lac	5	Stand Light		121
+04rsm_cameramenu_resource.lac	6	Handy Light		122
+04rsm_cameramenu_resource.lac	9	Lighting		181	plate
+04rsm_cameramenu_resource.lac	10	Color Lens		181	plate
+04rsm_cameramenu_resource.lac	11	Special Settings		135	plate
+04rsm_cameramenu_resource.lac	16	Thick		28	plate
+04rsm_cameramenu_resource.lac	17	Thick		28	plate
+04rsm_cameramenu_resource.lac	18	Thin		28	plate
+04rsm_cameramenu_resource.lac	19	Thin		28	plate
+04rsm_cameramenu_resource.lac	20	On		28	plate
+04rsm_cameramenu_resource.lac	21	On		28	plate
+04rsm_cameramenu_resource.lac	22	Off		28	plate
+04rsm_cameramenu_resource.lac	23	Off		28	plate
+04rsm_cameramenu_resource.lac	25	OK		74	plate
+04rsm_cameramenu_resource.lac	26	OK		74	plate
+90_common_calendar_01.lac	4	Monday		116
+90_common_calendar_resource.lac	25	Monday		116
+90_common_calendar_resource.lac	26	Tuesday		116
+90_common_calendar_resource.lac	27	Wednesday		116
+90_common_calendar_resource.lac	28	Thursday		116
+90_common_calendar_resource.lac	29	Friday		116
+90_common_calendar_resource.lac	30	Saturday		116
+90_common_calendar_resource.lac	31	Sunday		116
+90_common_page_cursor01_02.lac	0	L: Prev		116
+90_common_page_cursor01_02.lac	1	R: Next		116
+05frsm_action_resource.lac	15	Action Scene Select
+05frsm_background_resource.lac	5	Background Select
+05frsm_character_resource.lac	14	Character Select
+05frsm_costume_resource.lac	8	Outfit Select
+05frsm_hair_resource.lac	4	Hairstyle Select
+05frsm_setting_resource.lac	11	Special Settings
+05frsm_setting_resource.lac	12	Face Accessories
+05frsm_setting_resource.lac	13	Head Accessories
+05frsm_setting_resource.lac	14	Body Accessories
+05frsm_setting_resource.lac	15	Skin Status
+05frsm_time_resource.lac	3	Time of Day Select
+05frsm_top_resource.lac	36	Free Reco Session
+05frsm_top_resource.lac	3	Sagara Miu		144			right
+05frsm_top_resource.lac	4	Mariana Priscilla		203			right
+05frsm_top_resource.lac	5	Sorimachi Riko		188			right
+05frsm_top_resource.lac	6	Misaki Nagisa		174			right
+05frsm_top_resource.lac	7	Naruse Mahiro		184			right
+05frsm_top_resource.lac	8	Himeragi Rinze		190			right
+05frsm_top_resource.lac	9	Aida Miyuri		149			right
+05frsm_top_resource.lac	10	Uchima Yuko		166			right
+05frsm_top_resource.lac	11	Mana		79			right
+05frsm_top_resource.lac	12	Yuina		81			right
+05frsm_top_resource.lac	13	Isuzu Kokomi		168			right
+05frsm_top_resource.lac	14	Abumi Tama		162			right
+05frsm_top_resource.lac	30	Hairstyle		95			left
+05frsm_top_resource.lac	31	Outfit		70			left
+05frsm_top_resource.lac	32	Special Settings		159			left
+05frsm_top_resource.lac	33	Time of Day		128			left
+05frsm_top_resource.lac	34	Background		125			left
+05frsm_top_resource.lac	35	Action Scenes		144			left
+01_menu_eventlog01_01.lac	2	Story G
+01_menu_name01_01.lac	5	Hiragana		104
+01_menu_name01_01.lac	6	Katakana		105
+01_menu_name01_01.lac	7	ABC & Symbols		171
+01_menu_record_01.lac	4	Topic History
+01album_resource.lac	40	Album
+01dlc_resource.lac	0	Download History
+01event_check_resource.lac	13	Event Replay
+01special_resource.lac	8	Special
+03_brm_Matching.lac	125	Topic Charge
+03_brm_TalkSelect_free_01.lac	3	Bond		43
+03_brm_TalkSelect_free_01.lac	6	Zeal		38
+03_brm_TalkSelect_free_01.lac	8	Luck		39
+04rsm_pose_category01_01.lac	0	Fresh		75
+04rsm_pose_category01_02.lac	0	Casual		90
+04rsm_pose_category01_03.lac	0	Lovely		89
+04rsm_pose_category01_04.lac	0	Sexy		70
+04rsm_pose_category01_05.lac	0	Fresh		75
+04rsm_pose_category01_06.lac	0	Casual		90
+04rsm_pose_menu01_01.lac	0	Category		135
+04rsm_pose_menu01_01.lac	3	Position		121
+04rsm_pose_menu01_02.lac	0	Category		135
+04rsm_pose_menu01_02.lac	3	Position		121
+04rsm_pose_position01_01.lac	0	Position A		141
+04rsm_pose_position01_02.lac	0	Position B		138
+04rsm_pose_position01_03.lac	0	Position C		139
+04rsm_pose_position01_04.lac	0	Position D		142
+04rsm_pose_position01_05.lac	0	Position E		136
+04rsm_pose_position01_06.lac	0	Position F		136
+04rsm_pose_resource.lac	3	Pose Select
+04rsm_pose_resource.lac	4	Fresh		75
+04rsm_pose_resource.lac	9	Position A		141
+06_map_hosyuu01_01.lac	2	Remedial
+06_map_place01_name_03.lac	2	Hill Park		116
+06_map_place01_name_03.lac	3	Book Cafe		137
+06_map_place01_name_03.lac	4	Station Mall		158
+06_map_place01_name_03.lac	5	Amusement Space		235
+06_map_resource_01.lac	5	Year 1 Classroom
+06_map_resource_01.lac	6	Year 2 Classroom
+06_map_resource_01.lac	7	Year 3 Classroom
+06_map_resource_01.lac	9	Home Ec Room
+06_map_resource_01.lac	18	Station Mall
+06_map_resource_01.lac	19	Amusement Space
+06_map_resource_01.lac	20	Book Cafe
+06_map_resource_01.lac	21	Hill Park
+06_map_resource_01.lac	45	Elementary
+06_map_resource_01.lac	51	Home Ec Room
+06_map_study01_01.lac	0	Studying
+08phone_lovehack_resource.lac	1	Love Hack
+90_common_title_01.lac	0	Main Menu
+01_menu_top_01.lac	0	Event Replay
+08phone_lovehack_resource.lac	20	Virtual Magic Love Route Maze
+08phone_lovehack_resource.lac	21	Virtual Magic Love Route Choice
+08phone_lovehack_resource.lac	22	Extra Roulette
+08phone_lovehack_resource.lac	23	Extra Choice
+08_phone_mail_test02_01.lac	2	Passed
+08_phone_mail_test02_01.lac	5	pts
+08_phone_mail_test02_02.lac	2	Failed
+08_phone_mail_test02_02.lac	5	pts
+04rsm_cameramenu01_top01.lac	2	Gyro	45,55,210,86		overlay
+04rsm_cameramenu01_top01.lac	4	Finder	45,55,210,86		overlay
+04rsm_cameramenu01_lighting_01.lac	0	Handy Light	40,52,215,84		overlay
+04rsm_cameramenu01_lighting_01.lac	2	Stand Light	40,52,215,84		overlay
+04rsm_cameramenu01_lighting_01.lac	3	None	80,105,180,150		overlay
+90_common_movie_play.lac	6	mp4 Export	45,158,210,196		overlay
+08phone_lovehack_resource.lac	2	Uniform	10,170,120,206		overlay
+08phone_lovehack_resource.lac	3	Uniform	10,170,120,206		overlay
+08phone_lovehack_resource.lac	4	School Casuals	10,170,120,206		overlay
+08phone_lovehack_resource.lac	5	Apron	10,170,120,206		overlay
+08phone_lovehack_resource.lac	6	Gym Clothes	10,170,120,206		overlay
+08phone_lovehack_resource.lac	7	School Swimsuit	10,170,120,206		overlay
+08phone_lovehack_resource.lac	8	Casual Sportswear	10,170,120,206		overlay
+08phone_lovehack_resource.lac	9	Gold Bikini	10,170,120,206		overlay
+08phone_lovehack_resource.lac	10	Team Uniform	10,170,120,206		overlay
+08phone_lovehack_resource.lac	11	Racing Swimsuit	10,170,120,206		overlay
+08phone_lovehack_resource.lac	12	Jersey Leotard	10,170,120,206		overlay
+08phone_lovehack_resource.lac	13	Heart Gauge Up	10,150,120,232		plate
+08phone_lovehack_resource.lac	14	Angel Power Up	10,150,120,232		plate
+08phone_lovehack_resource.lac	15	All Topics Open	10,170,120,206		overlay
+08phone_lovehack_resource.lac	16	Next: All Zeal	10,150,120,232		plate
+08phone_lovehack_resource.lac	17	Next: All Bond	10,150,120,232		plate
+08phone_lovehack_resource.lac	18	Next: All Luck	10,150,120,232		plate
+05frsm_setting_resource.lac	0	Head Accessories	15,412,242,478		plate
+05frsm_setting_resource.lac	1	Face Accessories	15,412,242,478		plate
+05frsm_setting_resource.lac	2	Body Accessories	15,412,242,478		plate
+05frsm_setting_resource.lac	3	Skin Status	15,412,242,478		plate
+05frsm_character_resource.lac	11	Abumi Tama	15,412,242,478		plate
+05_frsm_top01_01.lac	0	Character	8,4,235,50		plate
+08_phone_01_01.lac	23	Pretty Meter	100,20,320,55		plate
+04rsm_system_top01_01.lac	8	Resume	112,178,200,212		plate
+04rsm_system_top01_01.lac	8	Change Pose	272,181,395,206		plate
+04rsm_system_top01_01.lac	8	Options	454,181,577,205		plate
+04rsm_system_top01_01.lac	8	Camera Ctrl	641,182,763,206		plate
+04rsm_system_top01_01.lac	8	Quit	838,178,920,212		plate
+04rsm_system_key01_01.lac	6	Hold	88,120,130,144		plain
+04rsm_system_key01_01.lac	6	Hold	408,120,450,144		plain
+04rsm_system_key01_01.lac	6	Hold	408,280,450,304		plain
+90_common_status_01.lac	16	Study	81,88,168,114	84	fill		left
+90_common_status_01.lac	16	Sport	170,88,256,114	84	fill		left
+90_common_status_01.lac	16	Study	258,88,344,114	84	fill		left
+90_common_status_01.lac	16	Sport	346,88,431,114	84	fill		left
+90_common_status_01.lac	16	Study	81,168,168,194	84	fill		left
+90_common_status_01.lac	16	Sport	170,168,256,194	84	fill		left
+90_common_status_01.lac	16	Study	258,168,344,194	84	fill		left
+06_map_schedule01_01.lac	3	Today's Timetable	246,106,450,148	200	plain		
+06_map_schedule01_01.lac	3	Pool	348,158,455,186	82	fill		left
+06_map_schedule01_01.lac	3	Beach	458,158,562,186	82	fill		left
+06_map_schedule01_01.lac	3	Gym	564,158,668,186	82	fill		left
+06_map_schedule01_01.lac	3	Yard	670,158,752,186	68	fill		left
+06_map_schedule01_01.lac	3	Yr 3	274,196,326,222	54	fill		left
+06_map_schedule01_01.lac	3	Yr 2	274,239,326,265	54	fill		left
+06_map_schedule01_01.lac	3	Yr 1	274,282,326,308	54	fill		left
+06_map_schedule01_01.lac	3	Mid	274,325,326,350	54	fill		left
+06_map_schedule01_01.lac	3	Elem	274,362,326,388	54	fill		left
+03_brm_Matching.lac	80	Seasons & Weather		209		12.7
+03_brm_Matching.lac	81	Study		74		12.7
+03_brm_Matching.lac	82	School		82		12.7
+03_brm_Matching.lac	83	Seasons & Weather		209		12.7
+03_brm_Matching.lac	84	Study		74		12.7
+03_brm_Matching.lac	85	School		82		12.7
+03_brm_Matching.lac	86	Music & Books		162		12.7
+03_brm_Matching.lac	87	Movies		87		12.7
+03_brm_Matching.lac	88	Private		84		12.7
+03_brm_Matching.lac	89	Music & Books		162		12.7
+03_brm_Matching.lac	90	Movies		87		12.7
+03_brm_Matching.lac	91	Private		84		12.7
+03_brm_Matching.lac	92	Health		81		12.7
+03_brm_Matching.lac	93	Swimming		121		12.7
+03_brm_Matching.lac	94	Sports		80		12.7
+03_brm_Matching.lac	95	Health		81		12.7
+03_brm_Matching.lac	96	Swimming		121		12.7
+03_brm_Matching.lac	97	Sports		80		12.7
+03_brm_Matching.lac	99	Sweets & Fruit		161		12.7
+03_brm_Matching.lac	100	Cooking		100		12.7
+03_brm_Matching.lac	101	Drinks & Snacks		175		12.7
+03_brm_Matching.lac	102	Sweets & Fruit		161		12.7
+03_brm_Matching.lac	103	Cooking		100		12.7
+03_brm_Matching.lac	104	Compliment		140		12.7
+03_brm_Matching.lac	105	Naughty		102		12.7
+03_brm_Matching.lac	106	Romance		107		12.7
+03_brm_Matching.lac	107	Compliment		140		12.7
+03_brm_Matching.lac	108	Naughty		102		12.7
+03_brm_Matching.lac	109	Romance		107		12.7
+03_brm_Matching.lac	112	Touch		78		12.7
+03_brm_Matching.lac	113	Gaze		64		12.7
+03_brm_Matching.lac	114	Hold Hands		132		12.7
+03_brm_Matching.lac	115	Touch		78		12.7
+06_map_resource_01.lac	12	Roof Garden
+06_map_resource_01.lac	54	Roof Garden
+06_map_resource_01.lac	4	Middle
+06_map_resource_01.lac	46	Middle
+06_map_resource_01.lac	13	Gym
+06_map_resource_01.lac	55	Gym
+06_map_resource_01.lac	52	Infirmary
+06_map_place01_name_01.lac	14	Home Ec Room
+08_phone_mail_test01_01.lac	1	The Result Is
+03_brm_TalkSelect.lac	26	Cancel
+01hint_resource.lac	39	Hint
+01album_resource.lac	3	Favorite	20,72,108,102		plain
+01album_resource.lac	4	Sort	20,72,108,102		plain
+04rsm_pose_resource.lac	5	Normal
+04rsm_pose_resource.lac	7	Wall
+04rsm_pose_chara01_01_01.lac	0	Normal
+04rsm_pose_chara01_01_02.lac	0	Normal
+04rsm_pose_chara01_05_01.lac	0	Normal
+04rsm_pose_chara01_05_02.lac	0	Normal
+04rsm_pose_chara02_01_01.lac	0	Normal
+04rsm_pose_chara02_01_02.lac	0	Normal
+04rsm_pose_chara02_05_01.lac	0	Normal
+04rsm_pose_chara02_05_02.lac	0	Normal
+04rsm_pose_chara03_01_01.lac	0	Normal
+04rsm_pose_chara03_01_02.lac	0	Normal
+04rsm_pose_chara03_05_01.lac	0	Normal
+04rsm_pose_chara03_05_02.lac	0	Normal
+04rsm_pose_chara03_03_01.lac	0	Wall
+06_map_resource_01.lac	23	To School
+06_map_resource_01.lac	49	Year 3
+06_map_resource_01.lac	48	Year 2
+06_map_resource_01.lac	10	Infirmary
+06_map_resource_01.lac	3	Elementary
+06_map_resource_01.lac	50	Library
+06_map_place02_01.lac	0	Elementary
+06_map_place01_name_01.lac	12	Gym		53
+06_map_study01_02.lac	0	Exercising
+04rsm_pose_resource.lac	8	Bed
+04rsm_pose_chara01_04_01.lac	0	Bed
+04rsm_pose_chara01_04_02.lac	0	Bed
+04rsm_pose_chara01_08_01.lac	0	Bed
+04rsm_pose_chara01_08_02.lac	0	Bed
+04rsm_pose_chara02_04_01.lac	0	Bed
+04rsm_pose_chara02_04_02.lac	0	Bed
+04rsm_pose_chara02_08_01.lac	1	Bed
+04rsm_pose_chara03_04_01.lac	0	Bed
+04rsm_pose_chara03_04_02.lac	0	Bed
+04rsm_pose_chara03_08_01.lac	0	Bed
+04rsm_pose_chara03_08_02.lac	0	Bed
+06_map_place01_name_01.lac	11	Roof Garden		114
+06_map_place01_name_01.lac	2	Year 1		62
+06_map_place01_name_01.lac	3	Year 2		66
+06_map_place01_name_01.lac	6	Infirmary		87
+06_map_resource_01.lac	47	Year 1
+06_map_resource_01.lac	8	Library
+06_map_resource_01.lac	62	To School
+04rsm_approach_top01_01.lac	2	Expression
+90_common_menu.lac	0	Menu	30,2,127,62	113	overlay
+01album_resource.lac	5	Delete	20,72,108,102		plain
+01album_resource.lac	6	Prev	20,72,108,102		plain
+01album_resource.lac	7	Next	20,72,108,102		plain
+06_map_place01_name_01.lac	9	Middle		70
+06_map_place01_name_01.lac	4	Year 3		65
+06_map_place01_name_01.lac	8	Elementary
+06_map_place01_name_01.lac	1	Pool		51
+06_map_place01_name_01.lac	0	Beach		62
+06_map_resource_01.lac	56	Pool
+06_map_resource_01.lac	14	Pool
+06_map_resource_01.lac	16	Beach
+06_map_resource_01.lac	57	Yard
+01_menu_eventlog01_01.lac	7	Completion
+04rsm_pose_menu01_02.lac	2	Pose
+04rsm_pose_resource.lac	6	Chair
+04rsm_pose_chara01_02_01.lac	0	Chair
+04rsm_pose_chara01_02_02.lac	0	Chair
+04rsm_pose_chara01_06_01.lac	0	Chair
+04rsm_pose_chara01_06_02.lac	0	Chair
+04rsm_pose_chara02_02_01.lac	0	Chair
+04rsm_pose_chara02_02_02.lac	0	Chair
+04rsm_pose_chara02_06_01.lac	0	Chair
+04rsm_pose_chara02_06_02.lac	0	Chair
+04rsm_pose_chara03_02_01.lac	0	Chair
+04rsm_pose_chara03_02_02.lac	0	Chair
+04rsm_pose_chara03_06_01.lac	0	Chair
+04rsm_pose_chara03_06_02.lac	0	Chair
+06_map_time_resource_01.lac	0	Br 1	14,4,150,28	159	fill		right
+06_map_time_resource_01.lac	1	Lunch	14,4,150,28	159	fill		right
+06_map_time_resource_01.lac	2	Br 2	14,4,150,28	159	fill		right
+06_map_time_resource_01.lac	3	After	14,4,150,28	159	fill		right
+06_map_time_change01_01.lac	0	Br 1	14,4,150,28	159	fill		right
+06_map_time_change01_01.lac	1	Lunch	14,4,150,28	159	fill		right
+06_map_time_01.lac	0	Br 1	14,4,150,28	159	fill		right
+08_phone_pretty01_01.lac	0	All	70,40,186,90		overlay
+06_map_resource_01.lac	15	Yard
+06_map_resource_01.lac	11	Cafeteria
+06_map_resource_01.lac	17	Club Room
+06_map_resource_01.lac	22	To Town
+04rsm_system_key01_01.lac	0	Move Mode			plate
+04rsm_system_key01_02.lac	1	Gyro Mode			plate
+04rsm_system_key01_03.lac	2	Finder Mode			plate
+04rsm_result_01.lac	13	Keep Shooting	88,10,216,54	122	fill
+04rsm_rec_resource.lac	117	Cancel	56,8,244,54		overlay
+08phone_lovecheck_resource.lac	82	Character Select	60,10,460,54		overlay
+08_phone_pretty01_02.lac	24	Free Event	86,8,470,54		overlay
+08phone_lovecheck_resource.lac	74	All	70,40,186,90		overlay
+01_menu_album01_01.lac	0	Top	14,74,114,104		plain
+01_menu_album01_01.lac	1	Favorite	14,74,114,104		plain
+01_menu_album01_01.lac	2	Next	14,74,114,104		plain
+01_menu_album01_01.lac	3	Prev	14,74,114,104		plain
+01_menu_album01_01.lac	4	Sort	14,74,114,104		plain
+01_menu_album01_01.lac	5	Delete	14,74,114,104		plain
+06_map_place01_name_01.lac	5	Library		69
+06_map_place01_name_01.lac	7	Yard		52
+06_map_place01_name_01.lac	10	Club Room		103
+06_map_place01_name_01.lac	13	Canteen		81
+03_brm_talk02_01.lac	0	Talk 2
+04rsm_approach02_page01.lac	2	L: Prev
+04rsm_approach02_page01.lac	3	R: Next
+06_map_resource_01.lac	53	Canteen
+06_map_resource_01.lac	58	Beach
+06_map_resource_01.lac	59	Club Room
+01config_resource.lac	11	Thin
+01config_resource.lac	12	Bold
+01config_resource.lac	13	On
+01config_resource.lac	14	Off
+01config_resource.lac	15	Normal
+01config_resource.lac	16	Reverse
+01config_resource.lac	17	Vertical
+01config_resource.lac	18	Horizontal
+01config_resource.lac	19	Gyro
+01config_resource.lac	20	Finder
+90_common_menu01_01menu.lac	0	Menu		105
+90_common_menu01_01menu.lac	1	Smartphone		158
+90_common_menu01_01menu.lac	3	Load		75
+90_common_menu01_01menu.lac	11	Config		134
+90_common_menu01_01menu.lac	12	Hint		74
+90_common_menu01_01menu.lac	13	Special		135
+90_common_menu01_01menu.lac	19	Camera		75
+90_common_menu01_03save.tex	0	Save
+04rsm_system_resource.lac	24	Gyro	26,15,101,51	62	fill
+04rsm_system_resource.lac	25	Finder	26,15,101,51	62	fill
+04rsm_system_resource.lac	26	Finder	26,15,101,51	62	fill
+01_menu_main_01.lac	0	Main Album	106,8,255,54		
+91_key_resource.lac	36	Select Item
+90_common_menu01_01menu.lac	2	Save		80
+01game_history_resource.lac	17	Play History
+90_common_movie_save.lac	0	Saving video data	158,10,352,54	
+90_common_movie_01.lac	0	Play	10,95,120,126	
+90_common_movie_02.lac	0	Repeat	10,95,120,126	
+90_common_movie_02.lac	1	Stop	10,95,120,126	
+90_common_menu01_01menu.lac	9	Club Mission		157
+90_common_menu01_01menu.lac	10	Status		133
+90_common_menu01_01menu.lac	14	To Title		135
+01_menu_record_01.lac	18	Ducks Earned
+01_menu_album_search_01.lac	5	Confirm
+01config_resource.lac	0	Main Menu	80,32,244,94		
+01special_resource.lac	0	Main Menu	80,32,244,94		
+01special_resource.lac	3	Confirm
+01special_resource.lac	11	On
+01special_resource.lac	12	Off
+01special_resource.lac	13	Normal
+01special_resource.lac	14	Reverse
+01special_resource.lac	17	Gyro
+01special_resource.lac	18	Finder
+03_brm_TalkSelect.lac	2	Season & Weather
+03_brm_TalkSelect.lac	6	Music & Books
+03_brm_TalkSelect.lac	10	Health
+03_brm_TalkSelect.lac	14	Drinks & Snacks
+03_brm_TalkSelect.lac	18	Compliment
+03_brm_TalkSelect.lac	22	Gaze
+03_brm_TalkSelect.lac	29	Topic Charge
+04rsm_approach_top01_01.lac	4	Set Gaze
+04rsm_cameramenu01_setting_00.lac	0	Confirm
+04rsm_cameramenu_base_01.lac	0	Back
+04rsm_cameramenu_base_01.lac	1	Color Lens
+04rsm_pose_category01_00.lac	0	Cancel
+04rsm_pose_chara01_03_01.lac	0	Wall
+04rsm_pose_chara01_03_02.lac	0	Wall
+04rsm_pose_chara01_07_01.lac	0	Wall
+04rsm_pose_chara01_07_02.lac	0	Wall
+04rsm_pose_chara02_03_01.lac	0	Wall
+04rsm_pose_chara02_03_02.lac	0	Wall
+04rsm_pose_chara02_07_01.lac	0	Wall
+04rsm_pose_chara02_07_02.lac	0	Wall
+04rsm_pose_chara03_03_02.lac	0	Wall
+04rsm_pose_chara03_07_01.lac	0	Wall
+04rsm_pose_chara03_07_02.lac	0	Wall
+04rsm_pose_chara02_08_02.lac	0	Bed
+04rsm_pose_menu01_01.lac	2	Pose
+04rsm_pose_menu01_01.lac	4	Start
+04rsm_pose_menu01_01.lac	5	Cancel
+04rsm_pose_menu01_02.lac	4	Cancel
+04rsm_pose_start.lac	2	Start
+04rsm_result_01.lac	12	Change Pose	88,10,216,54	122	fill
+04rsm_result_01.lac	14	Quick View	88,10,216,54	122	fill
+04rsm_result_01.lac	15	Cancel	88,10,216,54	122	fill
+04rsm_system_key01_01.lac	4	Back	18,12,112,52		fill
+04rsm_system_key01_02.lac	4	Back	18,12,112,52		fill
+04rsm_system_key01_03.lac	4	Back	18,12,112,52		fill
+04rsm_system_top01_01.lac	0	System Menu	168,8,400,56	226	
+04rsm_title_01.lac	0	Approach Menu	168,8,400,56	226	
+04rsm_system_setting_base_01.lac	0	Back	18,12,112,52		fill
+04rsm_system_setting_00.lac	0	Confirm			
+04rsm_system_resource.lac	27	Gyro	32,20,94,44	60	fill
+06_map_place01_name_02.lac	0	To Town			
+06_map_schedule_resource_01.lac	2	Br 1	30,12,98,52	62	fill
+06_map_schedule_resource_01.lac	3	Lunch	30,12,98,52	62	fill
+06_map_schedule_resource_01.lac	4	Br 2	30,12,98,52	62	fill
+06_map_schedule_resource_01.lac	5	After	30,12,98,52	62	fill
+06_map_schedule01_01.lac	2	Br 1	30,12,98,52	62	fill
+08_phone_mail_test02_01.lac	0	Next	20,18,108,46	76	fill
+08_phone_mail_test02_02.lac	0	Next	20,18,108,46	76	fill
+08phone_mission_resource.lac	10	Confirm	20,18,108,46	76	fill
+08phone_mission_resource.lac	11	Reward	16,18,112,46	88	fill
+90_common_menu01_01menu.lac	4	Save/Load		147
+90_common_menu01_01menu.lac	5	Next Slot		136
+90_common_menu01_01menu.lac	6	Bath Hall		107
+90_common_menu01_01menu.lac	8	Album		106
+90_common_menu01_01menu.lac	16	Remedial		80
+90_common_menu01_01menu.lac	18	Festival		102
+90_common_menu01_01menu.lac	20	System		101
+90_common_movie_play.lac	9	BGM Select			
+90_common_start_01.lac	0	Start	114,8,216,56	92	
+90_common_start_02.lac	0	Resume	114,8,216,56	92	
+08_phone_pretty_header_01.lac	1	Top	20,16,108,48	80	plate
+08_phone_pretty_header_01.lac	2	Back	20,16,108,48	80	plate
+01album_resource.lac	9	Sagara Miu	16,12,138,116	118	fill
+01album_resource.lac	10	Mariana	16,12,138,116	118	fill
+01album_resource.lac	11	Sorimachi Riko	16,12,138,116	118	fill
+01album_resource.lac	12	Misaki Nagisa	16,12,138,116	118	fill
+01album_resource.lac	13	Naruse Mahiro	16,12,138,116	118	fill
+01album_resource.lac	14	Himeragi Rinze	16,12,138,116	118	fill
+01album_resource.lac	15	Aida Miyuri	16,12,138,116	118	fill
+01album_resource.lac	16	Uchima Yuko	16,12,138,116	118	fill
+01album_resource.lac	17	Mana	16,12,138,116	118	fill
+01album_resource.lac	18	Yuina	16,12,138,116	118	fill
+01album_resource.lac	19	Isuzu Kokomi	16,12,138,116	118	fill
+01album_resource.lac	20	Abumu Tama	16,12,138,116	118	fill
+01album_resource.lac	21	Other	10,10,246,118	228	fill
+01album_resource.lac	22	Reco Session	10,10,246,118	228	fill
+01album_resource.lac	23	Rec Chance	10,10,246,118	228	fill
+01album_resource.lac	28	1000P+	10,10,246,118	228	fill
+01album_resource.lac	29	800P+	10,10,246,118	228	fill
+01album_resource.lac	30	600P+	10,10,246,118	228	fill
+01album_resource.lac	31	400P+	10,10,246,118	228	fill
+01album_resource.lac	32	200P+	10,10,246,118	228	fill
+01album_resource.lac	33	0P+	10,10,246,118	228	fill
+01album_resource.lac	34	15s+	10,10,246,118	228	fill
+01album_resource.lac	35	Under 15s	10,10,246,118	228	fill
+01special_resource.lac	20	Confirm	10,8,118,56	100	fill
+04rsm_cameramenu01_top01.lac	6	Lighting	45,6,209,45		overlay
+04rsm_cameramenu01_top01.lac	7	Depth of Field	45,6,209,45		overlay
+04rsm_cameramenu01_top01.lac	9	Color Lens	45,6,209,45		overlay
+04rsm_cameramenu01_lighting_01.lac	0	Handy Light	20,50,236,90		overlay
+04rsm_cameramenu01_lighting_01.lac	2	Stand Light	20,50,236,90		overlay
+04rsm_cameramenu01_lighting_01.lac	3	None	20,105,236,150		plain
+01album_resource.lac	0	Prev	20,72,108,102		plain
+01album_resource.lac	1	Next	20,72,108,102		plain
+01album_resource.lac	2	Top	20,72,108,102		plain
