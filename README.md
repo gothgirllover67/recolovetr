@@ -1,7 +1,24 @@
-# Reco Love: Gold Beach (PCSG00782) -- English Fan Translation
+# Reco Love: Gold Beach (PCSG00782) -- English Fan Translation v. 0.9
 
 An unofficial English translation for *Reco Love: Gold Beach* on PS Vita, game
-version **1.07** and 4 story DLC.
+version **1.07** and 4 story DLC. The script is MTL with Sugoi-14B-Ultra-HF with
+some edits. I think the reseult, despite the byte-lenght limit, is fine for what
+it is: 60% of the script is ok with small stuff like messed up pronouns (it would
+take too much time to edit 80k lines of script for such details, however, the tools
+to pack your own translation are provided here, so feel free to do so), 25% of
+a bit strange lines that you kinda guess and 15% of harder to guess lines. The text
+is easy enough though, it's not some chuunibyou writing, just evereday stuff. 
+
+I've played through the game once. Some of the signs look a bit messy and some of
+the lines are not alligned properly, but the game is fully beatable with the patch,
+I've spent quite some time ironing out problems and mistakes. I plan on at least
+fixing the DLC scripts which I still saw some things to fix and adding the translation
+of the menu lines for the story DLCs. The end result at this point I think is worse
+than an offical Japanese game translation, but better than some of the indie game
+translations on Steam. 
+
+Vita3k does not show the character models in the VN segments but runs the game with
+the patch, on Vita you need the rePatch plugin to make it work.
 
 This is a fan translation patch, not a copy of the game. **This repository ships
 no game files at all** -- only translation text, xdelta patches (which only make
@@ -12,26 +29,16 @@ against your own legally-owned copy.
 
 | Layer | Coverage |
 |---|---|
-| ADV script (dialogue) | translated |
+| ADV script (dialogue) | ~100% |
 | Table.cpk (UI text: hints, names, filters, pose list) | 3642 of 3647 rows |
 | eboot (menus, system text) | 613 of 615 strings |
 | UI.cpk captions (baked into textures) | ~1500 textures repainted |
 | Story DLC script (4 routes: Uchima, Mana, Yuina, Isuzu) | translated -- see below |
 | Story DLC Table.cpk (event/item titles) | **not translated** -- ~250 rows across 4 DLC |
-| Story DLC UI.cpk | not applicable -- see [DLC](#dlc) |
 
 The few rows/strings left in Japanese in the base game are deliberate: junk
 records the extractor picks up alongside real text, a name-entry placeholder,
 and one string whose on-screen slot is too small for any English word to fit.
-
-**Known quality issue, not yet fixed:** a handful of character names (most
-visibly Uchima Yuko and Kokomi Isuzu) were translated inconsistently across
-the script -- an earlier machine-translation pass rendered the same name a
-different way depending on context (e.g. "Inner Demon", "Naima", "Innerma"
-for Uchima). This has been cleaned up across the base game script and UI, but
-the DLC scripts -- especially Uchima's and Isuzu's own routes, where their
-name is naturally the most frequent word in the file -- have not had the same
-pass yet. Expect to see this in DLC dialogue until someone runs it.
 
 ## Two ways to install
 
@@ -69,7 +76,7 @@ project won't do it. What's in this repository is:
 install that already exists on your machine because you bought and installed
 the game yourself.
 
-## Getting your own decrypted files and recog.bin
+## Getting your own decrypted files and work.bin
 
 The tools need plaintext files, not the PFS-encrypted ones a PKG installs. Two
 ways to get them, both starting from a copy of the game you own:
@@ -78,30 +85,17 @@ ways to get them, both starting from a copy of the game you own:
   install. The decrypted install then sits under Vita3K's
   `ux0/app/PCSG00782/` folder.
 - **A jailbroken/modded Vita.** Same idea: the console decrypts the app on
-  install, and you can pull `ux0:app/PCSG00782/` off the memory card.
+  install, and you can pull `ux0:app/PCSG00782/` off the memory card in VitaShell
+  with "OpenDecrypted:.
 
-`recog.bin` is only needed for `tools/dev/` (rebuilding) -- the player path
-never touches it. It's a 512-byte NoNpDrm `work.bin`, generated from your own
-license for this title the same way any Vita homebrew tool generates one --
-not an eboot, not a save file, not shareable between accounts. If you don't
-already know how to make one, look up "NoNpDrm work.bin" for the jailbreak
-tool you used to install the game.
+`work.bin` is only needed for `tools/dev/` (rebuilding) -- the player path
+never touches it.
 
 ## Playing
 
-Everything you need is `xdelta3` (or a GUI front-end for it, see below) and
-your own decrypted install.
-
-```
-python tools/player/apply_xdelta_patch.py <decrypted_install_dir> <output_dir>
-```
-
-(Or edit the two paths at the top of `tools/player/apply_xdelta_patch.bat` and
-double-click it.)
-
-**No `xdelta3` on your PATH?** [DeltaPatcher](https://github.com/marco-calautti/DeltaPatcher)
-is a free, cross-platform GUI built on the same xdelta3 library -- easier than
-a command line for most people. Apply each file in `patches/` to the matching
+[DeltaPatcher](https://github.com/marco-calautti/DeltaPatcher)
+is a free, cross-platform GUI built on the same xdelta3 library.
+Apply each file in `patches/` to the matching
 stock file yourself:
 
 | Patch | Apply to | Produces |
@@ -120,10 +114,8 @@ media/cpk/Table.cpk
 media/cpk/UI.cpk
 ```
 
-Copy these over your own decrypted install (or into whatever overlay mechanism
-your jailbreak uses), matching the same relative paths. **Reinstall or reboot
-afterward** -- the game and the memory card controller both cache file layout
-and won't see the new archives otherwise.
+Copy these over your own decrypted install in Vita3k or to rePatch/PCSG00782 
+folder.
 
 A patch that doesn't apply cleanly (xdelta3 reports a checksum mismatch on the
 source file) almost always means your copy isn't on version 1.07 -- update
@@ -145,7 +137,7 @@ The full pipeline `tools/dev/` was built with -- also how the xdelta patches in
   to a `.ttf`/`.otf` you do have; step 2 writes `work/patched/ui/preview.png`,
   a contact sheet of every repainted caption -- check it, since a different
   font can shift text enough to clip against neighbouring artwork.
-- Your own `recog.bin` for PCSG00782 (see above)
+- Your own `work.bin` for PCSG00782 (see above)
 - Your own copy of `cpkmakec.exe`, CRI Middleware's CPK archive tool. It's
   proprietary and not included here -- search "CRI File System Tools" (any
   recent version works; this game's archives are the plain ITOC layout every
@@ -197,13 +189,11 @@ by matching text instead of trusting offsets that shift between game versions.
 
 The four story DLC (Uchima Yuko, Mana, Yuina, Isuzu Kokomi) each ship as their
 own content ID under `addcont/PCSG00782/`, with their own `Script.cpk` and
-`Table.cpk` -- unrelated to the base game's, and unrelated to each other
-(every DLC restarts its own file numbering at ID00000). `translation/dlc/`
-holds one subfolder per content ID with that DLC's own `script.csv` and
+`Table.cpk`. `translation/dlc/` holds one subfolder per content ID
+with that DLC's own `script.csv` and
 `table.tsv`, same column layout as the base game's.
 
-Dev-pipeline only for now -- there's no xdelta path for DLC yet, only
-`tools/dev/`:
+Dev-pipeline:
 
 ```
 python tools/dev/5_build_dlc.py <dlc_addcont_dir> work <cpkmakec.exe>
@@ -234,6 +224,11 @@ Japanese source with every `en_text` blank, which this script's patcher
 correctly treats as "nothing to change here" rather than blanking anything
 out. The DLC still builds and installs fine without it; those specific titles
 just stay in Japanese until someone fills that file in.
+
+The xdelta patches for DLC are not final, I plan on returning to fix them.
+However, they are playable. You need to put the whole decrypted DLC with
+the swapped Script.cpk file into reAddcont/PCSG00782/. Or just swap
+the files in Vita3l's DLC folder.
 
 ## How it works
 
@@ -268,30 +263,9 @@ produced the "modified" side of a diff -- only that the file you apply it to
 is byte-identical to the "original" side, which it will be for anyone on the
 same game version.
 
-## A note on tools/lib/sceutils/keys.py
-
-Only relevant if you're using `tools/dev/` -- the player path never touches
-this file. Rebuilding step 1's eboot decryption needs a table of Vita platform
-SELF-decryption keys -- the same values on every Vita, not something tied to
-your account or this game.
-
-Worth knowing about this file specifically: the rest of `tools/lib/sceutils/`
-is TeamMolecule's `sceutils` project (MIT). `keys.py` isn't from there --
-upstream `sceutils` deliberately excludes it (it's in that project's own
-`.gitignore`). The copy here was regenerated from the GPLv2-licensed Vita3K
-project instead, so its license provenance doesn't cleanly match the MIT
-folder it sits in. The key *values* are platform constants that have been
-independently rediscovered and published across many unrelated homebrew
-projects for years, which is a real argument that they're not the kind of
-creative expression copyright protects in the first place -- but that's an
-unsettled question, not a settled one, and this project isn't positioned to
-resolve it for you. If you fork or redistribute this repository and want
-certainty rather than a judgment call, that's the file to have someone
-qualified look at.
 
 ## Credits
 
-- Translation and original tooling: the project's translator/developer.
 - `tools/lib/sceutils/` is TeamMolecule's `sceutils`, MIT licensed --
   **except `keys.py`**, which isn't from that project at all; see
   [A note on tools/lib/sceutils/keys.py](#a-note-on-toolslibsceutilskeyspy)
