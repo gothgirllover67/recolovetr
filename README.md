@@ -1,13 +1,14 @@
-# Reco Love: Gold Beach (PCSG00782) -- English Fan Translation v. 0.9
+# Reco Love: Gold Beach English Fan Translation Patch v. 0.9
 
 An unofficial English translation for *Reco Love: Gold Beach* on PS Vita, game
-version **1.07** and 4 story DLC. The script is MTL with Sugoi-14B-Ultra-HF with
-some edits. I think the reseult, despite the byte-lenght limit, is fine for what
-it is: 60% of the script is ok with small stuff like messed up pronouns (it would
+version **1.07** and 4 story DLC. Please note that you need the updated
+version of the game. The script is MTL with Sugoi-14B-Ultra-HF with some edits.
+I think the result, despite the byte-lenght limit, is fine for what it is:
+70% of the script is ok with small stuff like messed up pronouns (it would
 take too much time to edit 80k lines of script for such details, however, the tools
-to pack your own translation are provided here, so feel free to do so), 25% of
-a bit strange lines that you kinda guess and 15% of harder to guess lines. The text
-is easy enough though, it's not some chuunibyou writing, just evereday stuff. 
+to pack your own translation are provided here, so feel free to do so), 15% of
+a bit strange lines which meaning you kinda guess and 15% of harder to guess lines.
+The text is easy enough though, it's not some chuunibyou writing, just everyday stuff. 
 
 I've played through the game once. Some of the signs look a bit messy and some of
 the lines are not alligned properly, but the game is fully beatable with the patch,
@@ -17,8 +18,8 @@ of the menu lines for the story DLCs. The end result at this point I think is wo
 than an offical Japanese game translation, but better than some of the indie game
 translations on Steam. 
 
-Vita3k does not show the character models in the VN segments but runs the game with
-the patch, on Vita you need the rePatch plugin to make it work.
+Vita3k does not show the character models in the VN segments, but runs the game
+with the patch, on Vita you need the rePatch plugin to make it work.
 
 This is a fan translation patch, not a copy of the game. **This repository ships
 no game files at all** -- only translation text, xdelta patches (which only make
@@ -30,11 +31,11 @@ against your own legally-owned copy.
 | Layer | Coverage |
 |---|---|
 | ADV script (dialogue) | ~100% |
-| Table.cpk (UI text: hints, names, filters, pose list) | 3642 of 3647 rows |
+| Table.cpk (UI text: hints, names, filters, pose list) | 3642 of 3647 strings |
 | eboot (menus, system text) | 613 of 615 strings |
-| UI.cpk captions (baked into textures) | ~1500 textures repainted |
-| Story DLC script (4 routes: Uchima, Mana, Yuina, Isuzu) | translated -- see below |
-| Story DLC Table.cpk (event/item titles) | **not translated** -- ~250 rows across 4 DLC |
+| UI.cpk captions (baked into textures) | ~90% (probably missed some) |
+| Story DLC script (4 routes: Uchima, Mana, Yuina, Isuzu) | ~100% but rough |
+| Story DLC Table.cpk (event/item titles) | **not translated** ~250 rows across 4 DLC |
 
 The few rows/strings left in Japanese in the base game are deliberate: junk
 records the extractor picks up alongside real text, a name-entry placeholder,
@@ -42,12 +43,10 @@ and one string whose on-screen slot is too small for any English word to fit.
 
 ## Two ways to install
 
-- **Just want to play?** Use `tools/player/` -- it patches your own game files
-  directly with the xdelta diffs in `patches/`. No `cpkmakec.exe`, no
-  `recog.bin`, nothing beyond `xdelta3` (or the DeltaPatcher GUI) and your own
-  copy of the game. Start at [Playing](#playing).
+- **Just want to play?** Use `tools/player/`, it patches your own game files
+  directly with the xdelta diffs in `patches/`. Start at [Playing](#playing).
 - **Want to rebuild, retarget to a new game version, or make your own
-  translation?** Use `tools/dev/` -- the full extract/patch/pack pipeline this
+  translation?** Use `tools/dev/`, the full extract/patch/pack pipeline this
   release was built with. Start at [Rebuilding / making your own translation](#rebuilding--making-your-own-translation).
 
 Both need the same starting point: your own decrypted copy of the game (see
@@ -88,15 +87,13 @@ ways to get them, both starting from a copy of the game you own:
   install, and you can pull `ux0:app/PCSG00782/` off the memory card in VitaShell
   with "OpenDecrypted:.
 
-`work.bin` is only needed for `tools/dev/` (rebuilding) -- the player path
-never touches it.
+`work.bin` is only needed for `tools/dev/` (rebuilding).
 
 ## Playing
 
 [DeltaPatcher](https://github.com/marco-calautti/DeltaPatcher)
 is a free, cross-platform GUI built on the same xdelta3 library.
-Apply each file in `patches/` to the matching
-stock file yourself:
+Apply each file in `patches/` to the matching stock file yourself:
 
 | Patch | Apply to | Produces |
 |---|---|---|
@@ -230,7 +227,7 @@ However, they are playable. You need to put the whole decrypted DLC with
 the swapped Script.cpk file into reAddcont/PCSG00782/. Or just swap
 the files in Vita3l's DLC folder.
 
-## How it works
+## How tools work
 
 - `tools/lib/cpk_extract.py` -- unpacks a CPK archive (decompressing CRILAYLA
   as needed) into one file per internal ID.
