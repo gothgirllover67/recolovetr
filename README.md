@@ -1,13 +1,12 @@
 # Reco Love: Gold Beach (PCSG00782) -- English Fan Translation
 
 An unofficial English translation for *Reco Love: Gold Beach* on PS Vita, game
-version **1.07**. Covers the base game: the ADV script (dialogue), the UI text
-tables, the eboot, and on-screen captions baked into textures.
+version **1.07** and 4 story DLC.
 
 This is a fan translation patch, not a copy of the game. **This repository ships
 no game files at all** -- only translation text, xdelta patches (which only make
 sense applied to a copy you already have), and the tools to build or apply them
-against your own legally-owned copy. See [Legal](#legal) below.
+against your own legally-owned copy. 
 
 ## Status
 
