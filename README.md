@@ -2,7 +2,8 @@
 
 An unofficial English translation for *Reco Love: Gold Beach* on PS Vita, game
 version **1.07** and 4 story DLC. Please note that you need the updated
-version of the game. The script is MTL with Sugoi-14B-Ultra-HF with some edits.
+version of the game. The script is MTL with Sugoi-14B-Ultra-HF with some editing
+and the same vocabluary which I didn't enforce yet on some of the DLC stuff.
 I think the result, despite the byte-lenght limit, is fine for what it is:
 70% of the script is ok with small stuff like messed up pronouns (it would
 take too much time to edit 80k lines of script for such details, however, the tools
@@ -281,3 +282,10 @@ The tools and translation text in this repository are MIT licensed -- see
 `LICENSE`. This does not extend to *Reco Love: Gold Beach* itself, and
 `tools/lib/sceutils/keys.py` has its own, murkier provenance -- see
 [A note on tools/lib/sceutils/keys.py](#a-note-on-toolslibsceutilskeyspy).
+
+[url=https://ibb.co/vRJ0Cp9][img]https://i.ibb.co/7LGsxPh/photo-2026-08-13-11-48-29.jpg[/img][/url]
+[url=https://ibb.co/gLdjB1pX][img]https://i.ibb.co/678nfhxp/photo-2026-08-13-11-50-34.jpg[/img][/url]
+[url=https://ibb.co/Qvks5h3w][img]https://i.ibb.co/nMBhW4NJ/photo-2026-08-13-11-51-08.jpg[/img][/url]
+[url=https://ibb.co/MHqrSmm][img]https://i.ibb.co/hNpb9SS/photo-2026-08-13-11-52-28.jpg[/img][/url]
+[url=https://ibb.co/LDL2GDNQ][img]https://i.ibb.co/5XNf7XKY/photo-2026-08-14-00-16-17.jpg[/img][/url]
+[url=https://ibb.co/4wH7DDzV][img]https://i.ibb.co/NgMskk5y/photo-2026-08-14-00-18-00.jpg[/img][/url]
