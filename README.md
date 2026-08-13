@@ -241,7 +241,7 @@ the files in Vita3l's DLC folder.
 - `tools/lib/eboot_patch.py` -- writes translated strings into the decrypted
   eboot ELF by virtual address.
 - `tools/lib/sceutils/self2elf.py` -- decrypts a SELF (the format every Vita
-  executable ships in) into a plain ELF, given your own `recog.bin`.
+  executable ships in) into a plain ELF, given your`work.bin`.
 - `tools/lib/cpk_build.py` -- regenerates the control file `cpkmakec.exe`
   needs from the original archive's own file-ID list, runs it, and validates
   the result independently.
@@ -253,7 +253,7 @@ the files in Vita3l's DLC folder.
   `tools/player/apply_xdelta_patch.py` (player: apply them).
 
 `patches/` works the way it does specifically so the player path never needs
-`sceutils`, `recog.bin`, or `cpkmakec.exe`: each patch is diffed against the
+`sceutils`, `work.bin`, or `cpkmakec.exe`: each patch is diffed against the
 **stock, still-encrypted** `eboot.bin` and the **stock, unmodified** `.cpk`
 archives, not against any decrypted intermediate. xdelta3 doesn't care what
 produced the "modified" side of a diff -- only that the file you apply it to
