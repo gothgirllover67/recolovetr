@@ -1,5 +1,7 @@
 # Reco Love: Gold Beach English Fan Translation Patch v. 0.9
 
+<a href="https://ibb.co/MHqrSmm"><img src="https://i.ibb.co/hNpb9SS/photo-2026-08-13-11-52-28.jpg" alt="photo-2026-08-13-11-52-28" border="0"></a>
+
 An unofficial English translation for *Reco Love: Gold Beach* on PS Vita, game
 version **1.07** and 4 story DLC. Please note that you need the updated
 version of the game. The script is MTL with Sugoi-14B-Ultra-HF with some editing
@@ -286,6 +288,5 @@ The tools and translation text in this repository are MIT licensed -- see
 <a href="https://ibb.co/vRJ0Cp9"><img src="https://i.ibb.co/7LGsxPh/photo-2026-08-13-11-48-29.jpg" alt="photo-2026-08-13-11-48-29" border="0"></a>
 <a href="https://ibb.co/gLdjB1pX"><img src="https://i.ibb.co/678nfhxp/photo-2026-08-13-11-50-34.jpg" alt="photo-2026-08-13-11-50-34" border="0"></a>
 <a href="https://ibb.co/Qvks5h3w"><img src="https://i.ibb.co/nMBhW4NJ/photo-2026-08-13-11-51-08.jpg" alt="photo-2026-08-13-11-51-08" border="0"></a>
-<a href="https://ibb.co/MHqrSmm"><img src="https://i.ibb.co/hNpb9SS/photo-2026-08-13-11-52-28.jpg" alt="photo-2026-08-13-11-52-28" border="0"></a>
 <a href="https://ibb.co/LDL2GDNQ"><img src="https://i.ibb.co/5XNf7XKY/photo-2026-08-14-00-16-17.jpg" alt="photo-2026-08-14-00-16-17" border="0"></a>
 <a href="https://ibb.co/4wH7DDzV"><img src="https://i.ibb.co/NgMskk5y/photo-2026-08-14-00-18-00.jpg" alt="photo-2026-08-14-00-18-00" border="0"></a>
