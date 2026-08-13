@@ -13,8 +13,9 @@ to pack your own translation are provided here, so feel free to do so), 15% of
 a bit strange lines which meaning you kinda guess and 15% of harder to guess lines.
 The text is easy enough though, it's not some chuunibyou writing, just everyday stuff. 
 
-I've played through the game once. Some of the signs look a bit messy and some of
-the lines are not alligned properly, but the game is fully beatable with the patch,
+I've played through the game once. Some of the signs look a bit messy, some of
+the names in headers are butchered because of the lenght and some of the lines
+are not alligned properly, but the game is fully beatable with the patch,
 I've spent quite some time ironing out problems and mistakes. I plan on at least
 fixing the DLC scripts which I still saw some things to fix and adding the translation
 of the menu lines for the story DLCs. The end result at this point I think is worse
