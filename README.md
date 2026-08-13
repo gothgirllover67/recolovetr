@@ -42,10 +42,6 @@ on your own legally-owned copy.
 | Story DLC script (4 routes: Uchima, Mana, Yuina, Isuzu) | ~100% but rough |
 | Story DLC Table.cpk (event/item titles) | **not translated** ~250 rows across 4 DLC |
 
-The few rows/strings left in Japanese in the base game are deliberate: junk
-records the extractor picks up alongside real text, a name-entry placeholder,
-and one string whose on-screen slot is too small for any English word to fit.
-
 ## Two ways to install
 
 - **Just want to play?** Use `tools/player/`, it patches your own game files
@@ -61,8 +57,7 @@ Both need the same starting point: your own decrypted copy of the game (see
 
 *Reco Love: Gold Beach* is a commercial visual novel. This project does not
 distribute the game, any of its assets, or any decrypted/decompiled copy of its
-code -- doing so would infringe the original publisher's copyright and this
-project won't do it. What's in this repository is:
+code. What's in this repository is:
 
 - **Translation text** (`translation/`) -- Japanese source strings paired with
   their English translation, keyed by file and byte offset. Comparable to a
@@ -94,6 +89,8 @@ ways to get them, both starting from a copy of the game you own:
 
 `work.bin` is only needed for `tools/dev/` (rebuilding).
 
+I advise to use Vita3k even if you plan on playing on real Vita. Saves you a lot of time.
+
 ## Playing
 
 [DeltaPatcher](https://github.com/marco-calautti/DeltaPatcher)
@@ -107,7 +104,7 @@ Apply each file in `patches/` to the matching stock file yourself:
 | `patches/table.xdelta` | your `media/cpk/Table.cpk` | translated `Table.cpk` |
 | `patches/ui.xdelta` | your `media/cpk/UI.cpk` | translated `UI.cpk` |
 
-Either way, the result is four files:
+The result is four files:
 
 ```
 eboot.bin
@@ -186,6 +183,10 @@ python tools/dev/2_apply_translation.py work/extracted work/patched --translatio
 `translation/script.csv` and `translation/table.tsv` both carry the original
 Japanese alongside the English, specifically so a translation can be re-keyed
 by matching text instead of trusting offsets that shift between game versions.
+
+The few rows/strings left in Japanese in the base game are deliberate: junk
+records the extractor picks up alongside real text, a name-entry placeholder,
+and one string whose on-screen slot is too small for any English word to fit.
 
 ## DLC
 
